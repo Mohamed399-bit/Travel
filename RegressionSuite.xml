@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Travel Module Regression Suite">
+    <test name="Travel regression bucket For Booking and select low price hotel" preserve-order="true">
+        <classes>
+            <class name="tests.BookingTest"/>
+            <class name="tests.HotelsTest"/>
+        </classes>
+    </test>
+</suite>

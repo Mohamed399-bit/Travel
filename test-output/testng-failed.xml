@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Travel Module Regression Suite]">
+  <test thread-count="5" name="Travel regression bucket For Booking and select low price hotel(failed)">
+    <classes>
+      <class name="tests.HotelsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="selectLowPrice"/>
+        </methods>
+      </class> <!-- tests.HotelsTest -->
+    </classes>
+  </test> <!-- Travel regression bucket For Booking and select low price hotel(failed) -->
+</suite> <!-- Failed suite [Travel Module Regression Suite] -->
